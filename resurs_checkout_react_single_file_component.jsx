@@ -1,9 +1,3 @@
-import React, { useMemo, useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ChevronDown, CreditCard, Smartphone, Banknote, CalendarClock, Receipt, Percent, Truck, Home, Package } from "lucide-react";
-import { motion } from "framer-motion";
-
 const kr = (v) =>
   new Intl.NumberFormat("sv-SE", { style: "currency", currency: "SEK", maximumFractionDigits: 0 }).format(v);
 
